@@ -1,6 +1,6 @@
 # WOSPM Docker
 
-This repo contains Dockerfile for [WOSPM/Checker](https://github.com/WOSPM/checker) tool and the built image is ready on Docker Hub. 
+This repo contains Dockerfile for [WOSPM/Checker](https://github.com/WOSPM/checker) tool and the built image is ready on Docker Hub.
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CONTRIBUTING.md) [![CircleCI](https://circleci.com/gh/WOSPM/docker.svg?style=svg)](https://circleci.com/gh/WOSPM/docker) ![WOSPM](https://img.shields.io/badge/WOSPM-Welcoming-green)
 
@@ -14,6 +14,7 @@ This repo contains Dockerfile for [WOSPM/Checker](https://github.com/WOSPM/check
 - [Code of Conduct](#code-of-conduct)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ---
 
 ## How To Use

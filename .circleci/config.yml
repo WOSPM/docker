@@ -34,6 +34,7 @@ jobs:
           command: dockerlint ~/repo/Dockerfile
   create_images:
     machine: true
+    working_directory: ~/repo
     steps:
       - run:
           name: DockerLogin
@@ -41,7 +42,7 @@ jobs:
       - run:
           name: Build
           no_output_timeout: 20m
-          command: docker build -t wospm/checker - < /home/circleci/project/Dockerfile
+          command: docker build -t wospm/checker - < ~/repo/Dockerfile
       - run:
           name: Push
           no_output_timeout: 20m

@@ -35,7 +35,7 @@ jobs:
   create_images:
     machine: true
     working_directory: ~/repo
-    step:
+    steps:
       - run:
           name: DockerLogin
           command: docker login -u $DOCKER_USER -p $DOCKER_PASS

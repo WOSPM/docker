@@ -36,6 +36,7 @@ jobs:
     machine: true
     working_directory: ~/repo
     steps:
+      - checkout
       - run:
           name: DockerLogin
           command: docker login -u $DOCKER_USER -p $DOCKER_PASS

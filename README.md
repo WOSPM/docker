@@ -22,7 +22,7 @@ This repo contains Dockerfile for [WOSPM/Checker](https://github.com/WOSPM/check
 You can check your repo by mounting the root directory of the repo to `/app` directory of the container.
 
 ```bash
-docker run
+docker run -v /path/tp/your/repo:/app -i -t  wospm/checker wospm-checker --verbose 1
 ```
 
 ## Contributing

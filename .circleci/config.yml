@@ -41,7 +41,7 @@ jobs:
       - run:
           name: Build
           no_output_timeout: 20m
-          command: docker build -t wospm/checker .
+          command: docker build -t wospm/checker - < /home/circleci/project/Dockerfile
       - run:
           name: Push
           no_output_timeout: 20m

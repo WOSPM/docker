@@ -32,6 +32,17 @@ jobs:
       - run:
           name: DockerLint
           command: dockerlint ~/repo/Dockerfile
+      - run:
+          name: DockerLogin
+          command: docker login -u $DOCKER_USER -p $DOCKER_PASS
+      - run:
+          name: Build
+          no_output_timeout: 20m
+          command: docker build -t wospm/checker - < ~/repo/Dockerfile
+      - run:
+          name: Push
+          no_output_timeout: 20m
+          command: docker push wospm/checke
 workflows:
   version: 2
   build_and_create:

@@ -32,6 +32,10 @@ jobs:
       - run:
           name: DockerLint
           command: dockerlint ~/repo/Dockerfile
+  create_images:
+    machine: true
+    working_directory: ~/repo
+    step:
       - run:
           name: DockerLogin
           command: docker login -u $DOCKER_USER -p $DOCKER_PASS
@@ -50,3 +54,4 @@ workflows:
       - wospm-checker
       - doc-lint
       - build
+      - create_images

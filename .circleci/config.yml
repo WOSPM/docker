@@ -55,6 +55,4 @@ workflows:
   build_and_create:
     jobs:
       - build
-      - create_images:
-        requires:
-          - build
+      - create_images

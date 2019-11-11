@@ -42,7 +42,7 @@ jobs:
       - run:
           name: Build
           no_output_timeout: 20m
-          command: docker build -t wospm/checker - < Dockerfile
+          command: docker build -t wospm/checker .
       - run:
           name: Push
           no_output_timeout: 20m

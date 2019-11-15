@@ -25,7 +25,7 @@ RUN curl -sS https://getcomposer.org/installer -o composer-setup.php && \
     composer config -g repo.packagist composer https://packagist.phpcomposer.com
 
 # Install Psecio Parse
-RUN composer global require --dev WOSPM/checker
+RUN composer global require WOSPM/checker
 
 # Unset COMPOSER_BIN_DIR
 ENV COMPOSER_BIN_DIR=""

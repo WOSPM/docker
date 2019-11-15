@@ -24,7 +24,7 @@ RUN curl -sS https://getcomposer.org/installer -o composer-setup.php && \
     php composer-setup.php --install-dir=/usr/local/bin --filename=composer && \
     composer config -g repo.packagist composer https://packagist.phpcomposer.com
 
-# Install Psecio Parse
+# Install WOSPM/checker
 RUN composer global require WOSPM/checker
 
 # Unset COMPOSER_BIN_DIR

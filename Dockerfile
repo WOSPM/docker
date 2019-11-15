@@ -11,7 +11,7 @@ RUN mkdir -p /app
 WORKDIR /app
 
 RUN apt-get update && \
-    apt-get -y install --no-install-recommends libmcrypt-dev libreadline-dev zlib1g-dev libxml2-dev libzip-dev apt-utils curl git zip unzip && \
+    apt-get -y install --no-install-recommends libmcrypt-dev libreadline-dev zlib1g-dev apt-utils curl git zip unzip && \
     rm -rf /var/lib/apt/lists/*
 
 RUN docker-php-ext-install \

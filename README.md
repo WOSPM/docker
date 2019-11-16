@@ -9,6 +9,7 @@ This repo contains Dockerfile for [WOSPM/Checker](https://github.com/WOSPM/check
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table Of Contents
 
+- [Introduction](#introduction)
 - [How To Use](#how-to-use)
 - [Contributing](#contributing)
 - [Code of Conduct](#code-of-conduct)

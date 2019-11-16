@@ -17,6 +17,10 @@ This repo contains Dockerfile for [WOSPM/Checker](https://github.com/WOSPM/check
 
 ---
 
+## Introduction
+
+This is a repository of a Docker file to create images that contains pre-installed [wospm-checker](https://github.com/WOSPM/checker) to check your project. The latest image are also ready on [Docker Hub](https://hub.docker.com/r/wospm/checker).
+
 ## How To Use
 
 You can check your repo by mounting the root directory of the repo to `/app` directory of the container.

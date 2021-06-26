@@ -2,7 +2,7 @@
 
 This repository contains Dockerfile for [WOSPM/Checker](https://github.com/WOSPM/checker) tool and the built image is ready on Docker Hub.
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CONTRIBUTING.md) [![Welcoming](https://img.shields.io/badge/WOSPM-Welcoming-green)](https://github.com/WOSPM/checker) [![CircleCI](https://circleci.com/gh/WOSPM/docker.svg?style=svg)](https://circleci.com/gh/WOSPM/docker)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CONTRIBUTING.md) [![WOSPM Checker](https://github.com/WOSPM/docker/actions/workflows/wospm.yml/badge.svg)](https://github.com/WOSPM/docker/actions/workflows/wospm.yml) [![Markdown Linter](https://github.com/WOSPM/docker/actions/workflows/markdown-linter.yml/badge.svg)](https://github.com/WOSPM/docker/actions/workflows/markdown-linter.yml) [![Dockerfile Lint](https://github.com/WOSPM/docker/actions/workflows/docker-file-linter.yml/badge.svg)](https://github.com/WOSPM/docker/actions/workflows/docker-file-linter.yml)
 
 ---
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
